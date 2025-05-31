@@ -12,7 +12,7 @@
     "dev": "node setup-devvit.cjs",
     "dev:all": "concurrently -p \"[{name}]\" -n \"VITE,DEVVIT,GAME\" -c \"blue,green,magenta\" \"npm run dev:vite\" \"npm run dev:devvit\" \"npm run dev:client\" --restart-tries 2",
     "dev:client": "cd src/client && vite build --watch",
-    "dev:devvit": "devvit playtest YOUR_SUBREDDIT_NAME",
+    "dev:devvit": "devvit playtest designtester",
     "dev:vite": "cd src/client && vite --port 7474",
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix ./src",
