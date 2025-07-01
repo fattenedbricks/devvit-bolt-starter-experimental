@@ -10,7 +10,7 @@
     "devvit:init": "devvit upload --copy-paste && touch .initialized",
     "deploy": "devvit upload --copy-paste",
     "dev": "node setup-devvit.cjs",
-    "dev:devvit": "devvit playtest YOUR_SUBREDDIT_NAME",
+    "dev:devvit": "devvit playtest designtester",
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix ./src",
     "login": "devvit login --copy-paste",
